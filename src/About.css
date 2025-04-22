@@ -1,3 +1,9 @@
+#About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .about {
     margin-top: 158px;
     font-family: "Montserrat", sans-serif;
@@ -12,4 +18,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.about-description {
+    margin-top: 88px;
+    width: 763px;
+    height: 47px;
+    color: #050505;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 138.682%; /* 20.802px */
+}
+
+#About .read-more {
+    margin-top: 74px;
+    border-color: #000 !important;
 }
