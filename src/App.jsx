@@ -1,4 +1,7 @@
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faAt } from '@fortawesome/free-solid-svg-icons';
 
 const mainStyle = {
   width: "1920px",
@@ -34,6 +37,7 @@ const navigation = {
   width: 637,
   height: 46,
   // border: "1px red solid",
+  fontFamily: "Montserrat",
   display: "flex",
   justifyContent: "space-evenly",
   alignItems: "center",
@@ -62,6 +66,9 @@ function App() {
     <div className="App" style={app}>
       <div className='main' style={mainStyle}>
         <div className="myPicture" style={myPic}>
+          <div id="me">
+            <img src="me-removebg-preview.png" alt="My Picture" style={{height: 706,}} />
+          </div>
         </div>
         <div className="navig" style={navigation}>
             <a href="#About" style={{color: "white",textDecoration: "none", fontWeight: "bold"}}>About me</a>
@@ -70,16 +77,21 @@ function App() {
             <a href="#Contact" style={contact}>CONTACT ME</a>
         </div>
         <div className='per-infos'>
-          <h3>Hi, I am</h3>
-          <h1>Mohammed-Abed Hassani-Idrissi</h1>
-          <p>Software Developer</p>
+          <h3 className='hi'>Hi, I am</h3>
+          <h1 className='my-name'>Mohammed-Abed Hassani-Idrissi</h1>
+          <p className='description'>Software Developer / Front-end Enthusiast</p>
           <div className='socials'>
-            <div className='social'>@</div>
-            <div className='social'>Git</div>
-            <div className='social'>In</div>
+            <div className='social'><FontAwesomeIcon icon={faAt} style={{fontSize: 34}}/></div>
+            <div className='social'><FontAwesomeIcon icon={faGithub} style={{fontSize: 34}}/></div>
+            <div className='social'>
+              <div id="linked">
+                <FontAwesomeIcon icon={faLinkedinIn} style={{fontSize: 24}} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div className=''></div>
     </div>
   );
 }

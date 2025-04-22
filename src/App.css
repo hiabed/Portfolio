@@ -45,6 +45,8 @@
   justify-content: center;
   align-items: flex-start;
   margin-left: 160px;
+  font-family: "Raleway";
+
 }
 
 .social {
@@ -62,4 +64,38 @@
   display: flex;
   width: 230px;
   justify-content: space-between;
+}
+
+.my-name {
+  width: 700px;
+  font-size: 80px;
+  text-align: start;
+}
+
+.hi {
+  font-size: 40px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+#linked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #C4C4C4;
+  width: 38.4px;
+  height: 38.4px;
+  border-radius: 50%;
+}
+
+#me {
+  position: absolute;
+  bottom: 40%;
+  left: 97px;
+  transform: rotate(-9.67deg);
+  width: 500px;
+  height: 539px;
 }
