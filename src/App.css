@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #D7D7D7;
 }
 
 .App-logo {
@@ -76,7 +77,7 @@
   font-size: 40px;
 }
 
-.description {
+.title {
   font-size: 20px;
 }
 
@@ -99,3 +100,74 @@
   width: 500px;
   height: 539px;
 }
+
+.description-container {
+  color: #FFF;
+  font-family: "Montserrat";
+  width: 1920px;
+  height: 313px;
+  background: linear-gradient(90deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.description-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+  height: 100%;
+  gap: 33px;
+  justify-content: center;
+  margin-left: 102px;
+}
+
+.berries {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 5.561px;
+}
+
+.description {
+  width: 1148px;
+  height: 89px;
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 138.682%;
+}
+
+.read-more {
+  display: flex;
+  width: 139px;
+  height: 25px;
+  flex-shrink: 0;
+  font-size: 15px;
+  font-weight: 600;
+  border-left: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.it-container {
+  display: flex;
+  width: 256.742px;
+  height: 277.683px;
+  transform: rotate(23.887deg);
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.it {
+  color: #000;
+  font-family: "Varela";
+  font-size: 280px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.787px;
+}
+

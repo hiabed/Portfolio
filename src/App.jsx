@@ -6,7 +6,7 @@ import { faAt } from '@fortawesome/free-solid-svg-icons';
 const mainStyle = {
   width: "1920px",
   height: "1022px",
-  backgroundColor: "#909090",
+  backgroundColor: "#D7D7D7",
   position: "relative",
   overflow: "hidden",
   border: "blue solid 2px",
@@ -28,6 +28,7 @@ const app = {
   height: "200vh",
   backgroundColor: "grey",
   display: "flex",
+  backgroundColor: "#D7D7D7",
   flexDirection: "column",
   alignItems: "center",
 }
@@ -63,7 +64,7 @@ const contact = {
 
 function App() {
   return (
-    <div className="App" style={app}>
+    <div className="App w-32 bg-blue-500" style={app}>
       <div className='main' style={mainStyle}>
         <div className="myPicture" style={myPic}>
           <div id="me">
@@ -79,7 +80,7 @@ function App() {
         <div className='per-infos'>
           <h3 className='hi'>Hi, I am</h3>
           <h1 className='my-name'>Mohammed-Abed Hassani-Idrissi</h1>
-          <p className='description'>Software Developer / Front-end Enthusiast</p>
+          <p className='title'>Software Developer / Front-end Enthusiast</p>
           <div className='socials'>
             <div className='social'><FontAwesomeIcon icon={faAt} style={{fontSize: 34}}/></div>
             <div className='social'><FontAwesomeIcon icon={faGithub} style={{fontSize: 34}}/></div>
@@ -91,7 +92,22 @@ function App() {
           </div>
         </div>
       </div>
-      <div className=''></div>
+      <div className='description-container'>
+        <div className='description-child'>
+          <h2 className='berries'>IT BERRIES</h2>
+          <p className='description'>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. 
+            Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est. 
+            Morbi commodo, eros in dignissim tempus, lacus odio rutrum augue, in semper sem magna quis tellus. 
+            Etiam enim erat, suscipit eu semper a, dictum sit amet elit. Nunc egestas nisi eget enim gravida facilisis.
+            Pellentesque laoreet varius turpis vel pharetra. Ut ante justo, consequat vitae elementum tempor, 
+            accumsan nec eros.
+          </p>
+          <p className='read-more'>READ MORE</p>
+        </div>
+        <div className='it-container'>
+          <h1 className='it'>IT</h1>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://YOUR_USERNAME.github.io/Portfolio",
+  "homepage": "https://hiabed.github.io/Portfolio",
   "name": "codespaces-react",
   "version": "0.1.0",
   "private": true,
@@ -14,13 +14,7 @@
     "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^4.1.4",
     "web-vitals": "^3.1.0"
-  },
-  "overrides": {
-    "@svgr/webpack": "^8.0.1",
-    "@adobe/css-tools": "^4.3.1",
-    "postcss": "^8.4.31"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -51,6 +45,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.1",
     "jsdom": "^22.1.0",
+    "tailwindcss": "^4.1.4",
     "vite": "^6.3.2",
     "vitest": "^3.1.2"
   }
