@@ -25,8 +25,6 @@ const myPic = {
 const app = {
   minWidth: 1920,
   maxWidth: "100vw",
-  // height: "200vh",
-  backgroundColor: "grey",
   display: "flex",
   backgroundColor: "#D7D7D7",
   flexDirection: "column",

@@ -8,7 +8,7 @@ const About = () => {
             Sed ornare sit amet lorem sed viverra.
             In vel urna quis libero viverra facilisis ut ac est.
         </p>
-        <p className='read-more'>EXPLORE</p>
+        <p className='read-more' style={{borderColor: "black"}}>EXPLORE</p>
         <div className="separator"></div>
         <div className="knowledges">
             <div className="first-two">
