@@ -11,7 +11,6 @@
     font-weight: 700;
     line-height: 127.9%;
     letter-spacing: 10.661px;
-    border: 8px solid #000;
     background: rgba(255, 255, 255, 0.00);
     width: 404px;
     height: 107px;
@@ -32,5 +31,79 @@
 
 #About .read-more {
     margin-top: 74px;
-    border-color: #000 !important;
+}
+
+.separator {
+    margin-top: 85px;
+    width: 170px;
+    height: 12px;
+    background: url(../public/separatorBlack.png) lightgray 50% / cover no-repeat;
+}
+
+.knowledges {
+    display: flex;
+    flex-direction: column;
+    margin-top: 108px;
+    width: 1066px;
+    height: 373px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.knowledge {
+    height: 178px;
+}
+
+.knowledges p {
+    width: 431px;
+    height: 104px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.knowledges .h1 {
+    position: relative;
+    display: flex;
+    width: 277px;
+    height: 74px;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+}
+
+.knowledges h1 {
+    text-align: start;
+    z-index: 1;
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-size: 22px;
+    letter-spacing: 4.078px;
+}
+
+.design {
+    background: url(../public/design.png) 50% / cover;
+}
+
+.development {
+    background: url(../public/development.png) 50% / cover;
+}
+
+.maintenance {
+    background: url(../public/maintenance.png) 50% / cover;
+    left: -62px !important;
+    width: 80.213px !important;
+}
+
+
+.sign {
+    position: absolute;
+    left: -35px;
+    width: 61px;
+    height: 64px;
 }
