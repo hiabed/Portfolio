@@ -2,6 +2,7 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faAt } from '@fortawesome/free-solid-svg-icons';
+import About from './About';
 
 const mainStyle = {
   width: "1920px",
@@ -9,7 +10,6 @@ const mainStyle = {
   backgroundColor: "#D7D7D7",
   position: "relative",
   overflow: "hidden",
-  border: "blue solid 2px",
 }
 
 const myPic = {
@@ -25,7 +25,7 @@ const myPic = {
 const app = {
   minWidth: 1920,
   maxWidth: "100vw",
-  height: "200vh",
+  // height: "200vh",
   backgroundColor: "grey",
   display: "flex",
   backgroundColor: "#D7D7D7",
@@ -108,6 +108,7 @@ function App() {
           <h1 className='it'>IT</h1>
         </div>
       </div>
+      <About />
     </div>
   );
 }

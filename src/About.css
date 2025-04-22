@@ -1,0 +1,15 @@
+.about {
+    margin-top: 158px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 127.9%;
+    letter-spacing: 10.661px;
+    border: 8px solid #000;
+    background: rgba(255, 255, 255, 0.00);
+    width: 404px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
