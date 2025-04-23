@@ -28,7 +28,7 @@
 }
 
 #git {
-    background: url(Git-Icon.svg) 50% / cover no-repeat;
+    background: url(../public/Git-Icon.svg) 50% / cover no-repeat;
     width: 96.242px;
     height: 100px;
 }
