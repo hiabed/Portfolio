@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faAt } from '@fortawesome/free-solid-svg-icons';
 import About from './About';
+import Skills from './Skills';
 
 const mainStyle = {
   width: "1920px",
@@ -107,6 +108,7 @@ function App() {
         </div>
       </div>
       <About />
+      <Skills/>
     </div>
   );
 }

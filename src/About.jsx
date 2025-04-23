@@ -44,6 +44,7 @@ const About = () => {
                 </p>
             </div>
         </div>
+        <div className="separator" style={{marginTop: 80}}></div>
     </div>
     )
 }
