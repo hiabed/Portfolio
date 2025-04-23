@@ -4,6 +4,7 @@ import { faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg
 import { faAt } from '@fortawesome/free-solid-svg-icons';
 import About from './About';
 import Skills from './Skills';
+import Portfolio from './Portfolio';
 
 const mainStyle = {
   width: "1920px",
@@ -109,6 +110,7 @@ function App() {
       </div>
       <About />
       <Skills/>
+      <Portfolio />
     </div>
   );
 }

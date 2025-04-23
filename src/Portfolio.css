@@ -1,0 +1,5 @@
+#Portfolio {
+    width: 1920px;
+    height: 321px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url(../public/Portfolio.svg);
+}
