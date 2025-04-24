@@ -38,7 +38,7 @@
     margin-top: 85px;
     width: 170px;
     height: 12px;
-    background: url(../public/separatorBlack.png) lightgray 50% / cover no-repeat;
+    background: url(/separatorBlack.png) 50% / cover no-repeat;
 }
 
 .knowledges {
@@ -88,15 +88,15 @@
 }
 
 .design {
-    background: url(../public/design.png) 50% / cover;
+    background: url(/design.png) 50% / cover;
 }
 
 .development {
-    background: url(../public/development.png) 50% / cover;
+    background: url(/development.png) 50% / cover;
 }
 
 .maintenance {
-    background: url(../public/maintenance.png) 50% / cover;
+    background: url(/maintenance.png) 50% / cover;
     left: -62px !important;
     width: 80.213px !important;
 }

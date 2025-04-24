@@ -5,6 +5,7 @@ import { faAt } from '@fortawesome/free-solid-svg-icons';
 import About from './About';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 const mainStyle = {
   width: "1920px",
@@ -111,6 +112,7 @@ function App() {
       <About />
       <Skills/>
       <Portfolio />
+      <Contact />
     </div>
   );
 }
