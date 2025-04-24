@@ -20,7 +20,7 @@ const Contact = () => {
                 <input type="tel" name="phone" id="phone" placeholder="PHONE NUMBER"></input>
                 <label htmlFor="message" className="sr-only">message</label>
                 <input name="message" id="message" placeholder="YOUR MESSAGE*" required></input>
-                <input type="submit" value="Submit" />
+                <input id="submit" type="submit" value="Submit" />
             </form>
         </div>
     )
