@@ -74,12 +74,12 @@ function App() {
           <h1 className='my-name'>Mohammed-Abed Hassani-Idrissi</h1>
           <p className='title'>Software Developer / Front-end Enthusiast</p>
           <div className='socials'>
-            <div className='social'><FontAwesomeIcon icon={faAt} style={{fontSize: 34}}/></div>
-            <div className='social'><FontAwesomeIcon icon={faGithub} style={{fontSize: 34}}/></div>
-            <div className='social'>
-              <div id="linked">
+            <a href="mailto:abed.hassani.idrissi@gmail.com?subject=Opportunity for Collaboration" target='blank_' rel="noopener noreferrer" className='social'><FontAwesomeIcon icon={faAt} style={{fontSize: 34}}/></a>
+            <a href='https://github.com/hiabed' target='blank_' rel="noopener noreferrer" className='social'><FontAwesomeIcon icon={faGithub} style={{fontSize: 34}}/></a>
+            <div href='https://github.com/hiabed' className='social'>
+              <a href='https://www.linkedin.com/in/mohammed-abed-hassani-idrissi/' id="linked" target='blank_' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedinIn} style={{fontSize: 24}} />
-              </div>
+              </a>
             </div>
           </div>
         </div>
