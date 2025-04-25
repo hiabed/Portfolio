@@ -36,23 +36,6 @@ const app = {
   alignItems: "center",
 }
 
-const navigation = {
-  color: "white",
-  width: "100%",
-  // backgroundColor: "#2626269e",
-  height: 70,
-  fontFamily: "Montserrat",
-  display: "flex",
-  justifyContent: "flex-end",
-  alignItems: "center",
-  position: "fixed",
-  fontSize: 17,
-  top: 20,
-  gap: 70,
-  paddingRight: 40,
-  zIndex: 2,
-}
-
 const contact = {
   height: 46,
   width: 147,
@@ -62,8 +45,6 @@ const contact = {
   justifyContent: "center",
   color: "black",
   backgroundColor: "white",
-  textDecoration: "none",
-  fontWeight: "bold",
   fontSize: 15,
 }
 
@@ -75,18 +56,18 @@ function App() {
     setScrolled(latest > 10);
   });
   return (
-    <div className="App w-32 bg-blue-500" style={app}>
-      <div className='main' style={mainStyle}>
+    <div className="App" style={app}>
+      <div className="navig" style={{backgroundColor: scrolled ? "#000" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
+          <a className='nav' href="#About">About me</a>
+          <a className='nav' href="#Skills">Skills</a>
+          <a className='nav' href="#Portfolio">Portfolio</a>
+          <a className='nav' href="#Contact" style={contact}>CONTACT ME</a>
+      </div>
+      <div className='main' id="main" style={mainStyle}>
         <div className="myPicture" style={myPic}>
           <div id="me">
             <img src="me-removebg-preview.png" alt="My Picture" style={{height: 706,}} />
           </div>
-        </div>
-        <div className="navig" style={{...navigation, backgroundColor: scrolled ? "#2626269e" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
-            <a href="#About" style={{color: "white",textDecoration: "none", fontWeight: "bold"}}>About me</a>
-            <a href="#Skills" style={{color: "white",textDecoration: "none", fontWeight: "bold"}}>Skills</a>
-            <a href="#Portfolio" style={{color: "white",textDecoration: "none", fontWeight: "bold"}}>Portfolio</a>
-            <a href="#Contact" style={contact}>CONTACT ME</a>
         </div>
         <div className='per-infos'>
           <h3 className='hi'>Hi, I am</h3>

@@ -3,13 +3,13 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div id="Footer">
-            <div>
+            <a className='back' href="#main">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                     <path d="M3.12497 5.3125V8.125L7.49997 5L11.875 8.125V5.3125L7.49997 2.1875L3.12497 5.3125Z" fill="white"/>
                     <path d="M3.12497 9.6875V12.5L7.49997 9.375L11.875 12.5V9.6875L7.49997 6.5625L3.12497 9.6875Z" fill="white"/>
                 </svg>
                 <h3 className='to-top'>BACK TO TOP</h3>
-            </div>
+            </a>
             <div id='footer-socials'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                     <path d="M28.8 0H1.2C0.53625 0 0 0.53625 0 1.2V28.8C0 29.4638 0.53625 30 1.2 30H28.8C29.4638 30 30 29.4638 30 28.8V1.2C30 0.53625 29.4638 0 28.8 0ZM27.6 27.6H20.6963V18.3825H24.5963L25.1813 13.8563H20.6963V10.965C20.6963 9.6525 21.06 8.76 22.9388 8.76H25.335V4.71C24.9187 4.65375 23.4975 4.53 21.84 4.53C18.3825 4.53 16.0163 6.64125 16.0163 10.515V13.8525H12.1088V18.3787H16.02V27.6H2.4V2.4H27.6V27.6Z" fill="white" fill-opacity="0.9"/>
