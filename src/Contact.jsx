@@ -1,6 +1,28 @@
 import "./Contact.css";
 
+import { useState } from "react";
+
 const Contact = () => {
+    const [status, setStatus] = useState("");
+
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      const form = e.target;
+      const data = new FormData(form);
+      const response = await fetch("https://formspree.io/f/myzwzkjv", {
+        method: "POST",
+        body: data,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+      if (response.ok) {
+        form.reset();
+        setStatus("Message sent!");
+      } else {
+        setStatus("Failed to send. Please try again.");
+      }
+    };
     return (
         <div id="Contact">
             <h1 className='about' style={{width: 367}}>Contact</h1>
@@ -11,7 +33,7 @@ const Contact = () => {
                 In vel urna quis libero viverra facilisis ut ac est.
             </p>
             <div className="separator"></div>
-            <form id="contact-form">
+            <form id="contact-form" onSubmit={handleSubmit}>
                 <label htmlFor="name" className="sr-only">Name</label>
                 <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME*" required/>
                 <label htmlFor="email" className="sr-only">Email</label>
