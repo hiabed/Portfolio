@@ -7,6 +7,8 @@ import Skills from './Skills';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer'
+import { useScroll, useMotionValueEvent } from "framer-motion";
+import React from "react";
 
 const mainStyle = {
   width: "100vw",
@@ -37,8 +39,8 @@ const app = {
 const navigation = {
   color: "white",
   width: "100%",
-  backgroundColor: "#2626269e",
-  height: 46,
+  // backgroundColor: "#2626269e",
+  height: 70,
   fontFamily: "Montserrat",
   display: "flex",
   justifyContent: "flex-end",
@@ -47,6 +49,8 @@ const navigation = {
   fontSize: 17,
   top: 20,
   gap: 70,
+  paddingRight: 40,
+  zIndex: 2,
 }
 
 const contact = {
@@ -64,6 +68,12 @@ const contact = {
 }
 
 function App() {
+  const { scrollY } = useScroll();
+  const [scrolled, setScrolled] = React.useState(false);
+
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    setScrolled(latest > 10);
+  });
   return (
     <div className="App w-32 bg-blue-500" style={app}>
       <div className='main' style={mainStyle}>
@@ -72,7 +82,7 @@ function App() {
             <img src="me-removebg-preview.png" alt="My Picture" style={{height: 706,}} />
           </div>
         </div>
-        <div className="navig" style={navigation}>
+        <div className="navig" style={{...navigation, backgroundColor: scrolled ? "#2626269e" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
             <a href="#About" style={{color: "white",textDecoration: "none", fontWeight: "bold"}}>About me</a>
             <a href="#Skills" style={{color: "white",textDecoration: "none", fontWeight: "bold"}}>Skills</a>
             <a href="#Portfolio" style={{color: "white",textDecoration: "none", fontWeight: "bold"}}>Portfolio</a>
