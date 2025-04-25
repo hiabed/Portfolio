@@ -9,7 +9,7 @@ import Contact from './Contact';
 import Footer from './Footer'
 
 const mainStyle = {
-  width: "1920px",
+  width: "100vw",
   height: "1022px",
   backgroundColor: "#D7D7D7",
   position: "relative",
@@ -27,8 +27,7 @@ const myPic = {
 }
 
 const app = {
-  minWidth: 1920,
-  maxWidth: "100vw",
+  width: "100vw",
   display: "flex",
   backgroundColor: "#D7D7D7",
   flexDirection: "column",
@@ -37,17 +36,17 @@ const app = {
 
 const navigation = {
   color: "white",
-  width: 637,
+  width: "100%",
+  backgroundColor: "#2626269e",
   height: 46,
-  // border: "1px red solid",
   fontFamily: "Montserrat",
   display: "flex",
-  justifyContent: "space-evenly",
+  justifyContent: "flex-end",
   alignItems: "center",
   position: "fixed",
   fontSize: 17,
-  left: "50%",
-  top: 40,
+  top: 20,
+  gap: 70,
 }
 
 const contact = {
