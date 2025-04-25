@@ -1,0 +1,43 @@
+#Footer {
+    margin-top: 52px;
+    width: 1920px;
+    height: 326px;
+    background: #1A1A1A;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer-socials {
+    display: flex;
+    width: 204px;
+}
+
+.to-top {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    letter-spacing: 2.781px;
+    width: 188px;
+    height: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rights {
+    width: fit-content;
+    height: 22px;
+    color: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rights span {
+    font-weight: 400;
+}
