@@ -62,7 +62,7 @@ function App() {
       <div className="navig" style={{backgroundColor: scrolled ? "#0B0B0B" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
           <a className='nav' href="#About">About me</a>
           <a className='nav' href="#Skills">Skills</a>
-          <a className='nav' href="#Portfolio">Portfolio</a>
+          <a className='nav' href="#Portfolio" style={{marginRight: 25}}>Portfolio</a>
           <a className='nav' href="#Contact" style={contact}>CONTACT ME</a>
       </div>
       <div className='main' id="main" style={mainStyle}>
