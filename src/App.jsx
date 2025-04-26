@@ -11,6 +11,7 @@ import { useScroll, useMotionValueEvent } from "framer-motion";
 import React from "react";
 
 const mainStyle = {
+  minWidth: 1920,
   width: "100vw",
   height: "1022px",
   backgroundColor: "#D7D7D7",
@@ -86,13 +87,14 @@ function App() {
       </div>
       <div className='description-container'>
         <div className='description-child'>
-          <h2 className='berries'>IT BERRIES</h2>
-          <p className='description'>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. 
-            Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est. 
-            Morbi commodo, eros in dignissim tempus, lacus odio rutrum augue, in semper sem magna quis tellus. 
-            Etiam enim erat, suscipit eu semper a, dictum sit amet elit. Nunc egestas nisi eget enim gravida facilisis.
-            Pellentesque laoreet varius turpis vel pharetra. Ut ante justo, consequat vitae elementum tempor, 
-            accumsan nec eros.
+          <h2 className='berries'>BIOGRAPHY</h2>
+          <p className='description'>
+            I'm a frontend developer who specializes in building clean, responsive, 
+            user-friendly interfaces using modern web technologies like HTML, CSS, JavaScript, and React. 
+            Alongside my frontend focus, I have a strong foundation in software development 
+            with experience in languages like C and C++, which has given me a deeper understanding of performance,
+            memory, and system-level behavior. I enjoy crafting visually appealing experiences and am 
+            always motivated to find efficient solutions to real-world problems.
           </p>
           <p className='read-more'>READ MORE</p>
         </div>

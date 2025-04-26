@@ -21,7 +21,9 @@
 }
 
 .about-description {
-    margin-top: 88px;
+    text-align: justify;
+    min-height: fit-content;
+    margin-top: 70px; /* was 88px */
     width: 763px;
     height: 47px;
     color: #050505;

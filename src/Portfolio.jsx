@@ -60,7 +60,7 @@ const Portfolio = () => {
                 ))}
             </div>
             <div className="more-to-come">
-                <h3>And many more to come!</h3>
+                <h3>And many more projects <a href='https://github.com/hiabed?tab=repositories' target='blank_' rel="noopener noreferrer">here!</a></h3>
             </div>
         </div>
     )

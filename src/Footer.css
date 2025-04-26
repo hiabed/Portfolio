@@ -2,7 +2,18 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Define the bouncing animation */
+@keyframes back {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+}
+
 .back {
+    animation: back 1s ease infinite;
     cursor: pointer;
     text-decoration: none;
     color: #FFF;
@@ -13,7 +24,8 @@ html {
 }
 
 #Footer {
-    width: 1920px;
+    width: 100vw;
+    min-width: 1920px;
     height: 326px;
     background: #1A1A1A;
     color: #FFF;

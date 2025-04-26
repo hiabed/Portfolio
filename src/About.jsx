@@ -4,9 +4,15 @@ const About = () => {
     return (
     <div id="About">
         <h1 className='about'>ABOUT ME</h1>
-        <p className="about-description">Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus.
-            Sed ornare sit amet lorem sed viverra.
-            In vel urna quis libero viverra facilisis ut ac est.
+        <p className="about-description">
+            Over two years of focused learning and hands-on project-building have given me the confidence to contribute
+            value in any digital-focused environment, regardless of tech stack or tools. My journey began with online
+            platforms like Codecademy and freeCodeCamp, where I explored Ruby, JavaScript, and Responsive Web Design.
+            I later joined 1337, a high-quality peer-learning program, where I completed 24 challenging projects—solo and
+            team-based—across various domains, including Full-Stack Web Development, OOP, Algorithms,
+            Multithreading, Unix Systems, Virtualization, Gaming, and DevOps.
+            This experience taught me how to independently learn, adapt, and deliver in real-world scenarios with people
+            from diverse backgrounds. Some of my projects are listed below.
         </p>
         <p className='read-more' style={{borderColor: "black"}}>EXPLORE</p>
         <div className="separator"></div>
