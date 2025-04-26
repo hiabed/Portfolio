@@ -22,6 +22,14 @@
   background: #000; /* Black */
 }
 
+#aboutnskills {
+  display: flex;
+  width: 100vw;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
+  flex-direction: column;
+  align-items: center;
+}
+
 .App {
   text-align: center;
   background-color: #D7D7D7;

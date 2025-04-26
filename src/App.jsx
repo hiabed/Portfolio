@@ -100,8 +100,10 @@ function App() {
           <h1 className='it'>IT</h1>
         </div>
       </div>
-      <About />
-      <Skills/>
+      <div id='aboutnskills'>
+        <About />
+        <Skills/>
+      </div>
       <Portfolio />
       <Contact />
       <Footer />
