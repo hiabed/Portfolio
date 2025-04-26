@@ -15,6 +15,7 @@ const mainStyle = {
   width: "100vw",
   height: "1022px",
   backgroundColor: "#D7D7D7",
+  background: "linear-gradient(90deg,rgba(215, 215, 215, 1) 0%, rgba(215, 215, 215, 1) 57%, rgba(0, 0, 0, 1) 100%)",
   position: "relative",
   overflow: "hidden",
 }
@@ -58,7 +59,7 @@ function App() {
   });
   return (
     <div className="App" style={app}>
-      <div className="navig" style={{backgroundColor: scrolled ? "#000" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
+      <div className="navig" style={{backgroundColor: scrolled ? "#0B0B0B" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
           <a className='nav' href="#About">About me</a>
           <a className='nav' href="#Skills">Skills</a>
           <a className='nav' href="#Portfolio">Portfolio</a>
