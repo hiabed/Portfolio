@@ -37,7 +37,15 @@ html {
 
 #footer-socials {
     display: flex;
+    justify-content: space-evenly;
     width: 204px;
+}
+
+#footer-socials a:hover {
+    position: relative;
+    bottom: 3px;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .to-top {
