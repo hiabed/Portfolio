@@ -28,6 +28,13 @@
     transform: translateY(0); /* Move to original position */
 }
 
+.resume {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
 .about-description {
     text-align: justify;
     min-height: fit-content;

@@ -1,5 +1,5 @@
-import { faListCheck } from "@fortawesome/free-solid-svg-icons";
-import "./About.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons';import "./About.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -15,14 +15,14 @@ const About = () => {
         <p className="about-description">
             Over two years of focused learning and hands-on project-building have given me the confidence to contribute
             value in any digital-focused environment, regardless of tech stack or tools. My journey began with online
-            platforms like Codecademy and freeCodeCamp, where I explored Ruby, JavaScript, and Responsive Web Design.
+            platforms like Codecademy and freeCodeCamp, where I explored RubyfaListCheck, JavaScript, and Responsive Web Design.
             I later joined 1337, a high-quality peer-learning program, where I completed 24 challenging projects—solo and
             team-based—across various domains, including Full-Stack Web Development, OOP, Algorithms,
             Multithreading, Unix Systems, Virtualization, Gaming, and DevOps.
             This experience taught me how to independently learn, adapt, and deliver in real-world scenarios with people
             from diverse backgrounds. Some of my projects are listed below.
         </p>
-        <p className='read-more resume' style={{borderColor: "black"}}>RESUME</p>
+        <a href='./resume.pdf' target='blank_' className='read-more resume' style={{borderColor: "black", color: "black", textDecoration: "none"}}><FontAwesomeIcon style={{width: "fit-content"}} icon={faEye} />RESUME</a>
         <div className="separator"></div>
         <div className="knowledges">
             <div className="first-two">
