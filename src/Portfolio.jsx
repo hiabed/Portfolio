@@ -27,7 +27,7 @@ const Portfolio = () => {
           buttons: ['DEMO', 'MORE'],
         },
         {
-          image: 'minishell.png',
+          image: 'iterm2.avif',
           title: 'Minishell',
           description: 'It is a small UNIX Shell that resembles Bash.',
           buttons: ['DEMO', 'MORE'],
