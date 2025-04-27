@@ -84,6 +84,8 @@
     opacity: 0.9;
     background-color: #cfcfcf;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px;
+    border-left-color: green !important;
+    border-right-color:  green !important;
     /* color: white; */
 }
 

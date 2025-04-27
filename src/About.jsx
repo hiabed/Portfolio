@@ -22,7 +22,7 @@ const About = () => {
             This experience taught me how to independently learn, adapt, and deliver in real-world scenarios with people
             from diverse backgrounds. Some of my projects are listed below.
         </p>
-        <p className='read-more' style={{borderColor: "black"}}>RESUME</p>
+        <p className='read-more resume' style={{borderColor: "black"}}>RESUME</p>
         <div className="separator"></div>
         <div className="knowledges">
             <div className="first-two">
