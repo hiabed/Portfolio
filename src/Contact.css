@@ -70,10 +70,12 @@
 }
 
 #submit:hover {
-    border: 5px solid #000 !important;
+    /* border: 5px solid #000 !important; */
     cursor: pointer;
-    background-color: #1a1a1a;
-    color: white;
+    opacity: 0.9;
+    background-color: #cfcfcf;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px;
+    /* color: white; */
 }
 
 .popup {

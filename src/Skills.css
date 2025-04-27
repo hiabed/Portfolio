@@ -32,6 +32,7 @@
 }
 
 .skill {
+    transition: transform 1s ease-out; 
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 400;

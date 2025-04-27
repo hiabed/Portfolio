@@ -1,8 +1,17 @@
+import { faListCheck } from "@fortawesome/free-solid-svg-icons";
 import "./About.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const About = () => {
+    useEffect(() => {
+        AOS.init({
+            once: false,
+        });
+        }, []);
     return (
-    <div id="About">
+    <div id="About" data-aos="fade-up">
         <h1 className='about'>ABOUT ME</h1>
         <p className="about-description">
             Over two years of focused learning and hands-on project-building have given me the confidence to contribute
@@ -14,39 +23,41 @@ const About = () => {
             This experience taught me how to independently learn, adapt, and deliver in real-world scenarios with people
             from diverse backgrounds. Some of my projects are listed below.
         </p>
-        <p className='read-more' style={{borderColor: "black"}}>EXPLORE</p>
+        <p className='read-more' style={{borderColor: "black"}}>RESUME</p>
         <div className="separator"></div>
         <div className="knowledges">
             <div className="first-two">
-                <div className="knowledge" style={{width: 468}}>
+                <div className="knowledge" style={{width: 468}} data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
                     <div className="h1">
                         <div className="design sign"></div>
-                        <h1>DESIGN</h1>
+                        <h1>Front-End Development</h1>
                     </div>
                     <p>
-                        I can design the site based on your needs and suggestions.
-                        I can also design the site from scratch and consult you during the job.
+                        I build dynamic, responsive, and user-friendly web interfaces with JavaScript, HTML5, CSS3, and Bootstrap.
+                        From hand-coded SPAs to modern React apps with hooks and React Router, I create seamless, interactive experiences.
+                        I focus on both functionality and design, delivering layouts that are visually appealing and highly usable.
                     </p>
                 </div>
-                <div className="knowledge" style={{width: 483}}>
+                <div className="knowledge" style={{width: 483}} data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
                     <div className="h1">
                         <div className="development sign"></div>
-                        <h1>DEVELOPMENT</h1>
+                        <h1>Object-oriented programming</h1>
                     </div>
                     <p>
-                        I can design the site based on your needs and suggestions. 
-                        I can also design the site from scratch and consult you during the job. 
+                        Object programming principles in C++, classes, namespaces, constructors and destructors,
+                        memory management in C++, inheritance, abstraction, overloading, templates, standard C++ library types and tools
                     </p>
                 </div>
             </div>
-            <div className="knowledge" style={{width: 487}}>
+            <div className="knowledge" style={{width: 487}} data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
                 <div className="h1">
                     <div className="maintenance sign"></div>
-                    <h1>MAINTENANCE</h1>
+                    <h1>Imperative programming</h1>
                 </div>
                 <p>
-                    I can design the site based on your needs and suggestions.
-                    I can also design the site from scratch and consult you during the job.
+                    Basics of coding in C : the C syntax, variable, loops, conditional branches, functions, recursivity,
+                    instructions, calculus and expressions, comparisons operators, standard and advanced types, strings processing, structures, includes
+                    and libraries, memory allocation and release, linked lists, trees, the C standard library
                 </p>
             </div>
         </div>
