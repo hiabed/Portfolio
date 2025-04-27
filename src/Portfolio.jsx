@@ -51,8 +51,8 @@ const Portfolio = () => {
             </div>
             <div className="tabs">
                 <a className='tab' style={{cursor: "pointer",color: "#FFFBFB"}}>Projects</a>
-                <a className='tab' style={{pointerEvents: "none"}}>Certifications</a>
-                <a className='tab' style={{pointerEvents: "none"}}>Education</a>
+                <a className='tab' style={{pointerEvents: "none", borderBottomColor: "#AAA"}}>Certifications</a>
+                <a className='tab' style={{pointerEvents: "none", borderBottomColor: "#AAA"}}>Education</a>
             </div>
             <div className="projects">
                 {projectsData.map((project, index) => (
@@ -60,7 +60,7 @@ const Portfolio = () => {
                       <img src={project.image} alt={`Project ${index + 1}`} width="100%" height="100%" />
                       <div className='to-show'>
                         <div className='to-align'>
-                          <p>{project.title}</p>
+                          <h1>{project.title}</h1>
                           <p>{project.description}</p>
                           <div className="buttons">
                               {project.buttons.map((buttonText, btnIndex) => (
