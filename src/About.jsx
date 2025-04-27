@@ -7,11 +7,10 @@ import { useEffect } from "react";
 const About = () => {
     useEffect(() => {
         AOS.init({
-            once: false,
         });
         }, []);
     return (
-    <div id="About" data-aos="fade-up">
+    <div id="About" data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
         <h1 className='about'>ABOUT ME</h1>
         <p className="about-description">
             Over two years of focused learning and hands-on project-building have given me the confidence to contribute

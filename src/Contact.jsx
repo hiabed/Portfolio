@@ -34,11 +34,9 @@ const Contact = () => {
         Contact
       </h1>
       <p>
-        Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius
-        finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero
-        viverra facilisis ut ac est.
+        I'm always excited to collaborate, learn, and bring new ideas to life. Whether you have a project, a question, or just want to say hi, feel free to reach out — let's make something amazing together.
       </p>
-      <div className="separator"></div>
+      <div className="separator" style={{marginTop: 0}}></div>
       <form id="contact-form" onSubmit={handleSubmit}>
         <label htmlFor="name" className="sr-only">
           Name

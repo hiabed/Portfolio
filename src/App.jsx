@@ -57,6 +57,8 @@ function App() {
   useMotionValueEvent(scrollY, "change", (latest) => {
     setScrolled(latest > 10);
   });
+
+  const [isOpened, setIsOpened] = React.useState(false);
   return (
     <div className="App" style={app}>
       <div className="navig" style={{backgroundColor: scrolled ? "#0B0B0B" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
@@ -86,10 +88,10 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='description-container'>
+      <div className='description-container' style={{height: isOpened ? "460px" : 313, transition: 'height 0.2s ease'}}>
         <div className='description-child'>
           <h2 className='berries'>BIOGRAPHY</h2>
-          <p className='description'>
+          <p className='description' style={{height: isOpened ? '144.88px' : 89, transition: 'height 0.5s ease'}}>
             I'm a frontend developer who specializes in building clean, responsive, 
             user-friendly interfaces using modern web technologies like HTML, CSS, JavaScript, and React. 
             Alongside my frontend focus, I have a strong foundation in software development 
@@ -97,7 +99,7 @@ function App() {
             memory, and system-level behavior. I enjoy crafting visually appealing experiences and am 
             always motivated to find efficient solutions to real-world problems.
           </p>
-          <p className='read-more'>READ MORE</p>
+          <p className='read-more' onClick={()=> isOpened ? setIsOpened(false) : setIsOpened(true)}>{isOpened ? "SHOW LESS": "READ MORE"}</p>
         </div>
         <div className='it-container'>
           <h1 className='it'>IT</h1>

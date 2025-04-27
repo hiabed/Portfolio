@@ -223,11 +223,12 @@ body {
 }
 
 .description {
+  overflow: hidden;
   width: 1148px;
   height: 89px;
   text-align: justify;
   font-family: "Open Sans";
-  font-size: 15px;
+  font-size: 21px;
   line-height: 138.682%;
 }
 
@@ -242,6 +243,13 @@ body {
   border-right: 2px solid #FFF;
   flex-direction: column;
   justify-content: center;
+}
+
+.read-more:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  background-color: #2d2828;
+  box-shadow: 0 0 10px #2d2828;
 }
 
 .it-container {
