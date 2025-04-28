@@ -28,6 +28,7 @@ const myPic = {
   right: -90,
   transform: "rotate(9.67deg)",
   top: -90,
+  zIndex: 0,
 }
 
 const app = {
@@ -50,6 +51,10 @@ const contact = {
   fontSize: 15,
 }
 
+import Particles from "react-tsparticles";
+import { useCallback } from "react";
+import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
+
 function App() {
   const { scrollY } = useScroll();
   const [scrolled, setScrolled] = React.useState(false);
@@ -59,6 +64,20 @@ function App() {
   });
 
   const [isOpened, setIsOpened] = React.useState(false);
+
+  const particlesInit = useCallback(async engine => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    //await loadFull(engine);
+    await loadSlim(engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async container => {
+      await console.log(container);
+  }, []);
+
   return (
     <div className="App" style={app}>
       <div className="navig" style={{backgroundColor: scrolled ? "#0B0B0B" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
@@ -68,7 +87,71 @@ function App() {
           <a className='nav' href="#Contact" style={contact}>CONTACT ME</a>
       </div>
       <div className='main' id="main" style={mainStyle}>
+        
         <div className="myPicture" style={myPic}>
+        <Particles
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 9000}}
+          options={{
+            background: {
+              color: {
+                value: "transparent",
+              },
+            },
+            fpsLimit: 120,
+            interactivity: {
+              events: {
+                onHover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+                resize: true,
+              },
+              modes: {
+                repulse: {
+                  distance: 100,  // Reduce the distance value to make them stay tighter
+                  duration: 0.4, // Adjust the duration to make the repulse feel smoother
+                  speed: 1,      // You can change the speed of the repulse effect
+                },
+              },
+            },
+            particles: {
+              color: {
+                value: "#ffffff", // <-- MAKE PARTICLES WHITE ⚡
+              },
+              links: {
+                color: "#ffffff", // <-- MAKE LINES WHITE ⚡
+                distance: 150,
+                enable: true,
+                opacity: 0.8,
+                width: 1,
+              },
+              move: {
+                enable: true,
+                speed: 2,
+              },
+              number: {
+                density: {
+                  enable: true,
+                  area: 800,
+                },
+                value: 80,
+              },
+              opacity: {
+                value: 0.8,
+              },
+              shape: {
+                type: "circle",
+              },
+              size: {
+                value: { min: 2, max: 4 }, // <-- A bit bigger so you can see
+              },
+            },
+            detectRetina: true,
+        }}
+        />
           <div id="me">
             <img src="me-removebg-preview.png" alt="My Picture" style={{height: 706,}} />
           </div>

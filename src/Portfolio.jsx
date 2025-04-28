@@ -9,6 +9,7 @@ const Portfolio = () => {
                         responsive UI using HTML, CSS, and Bootstrap that promised a smooth user experience. I also helped my four teammates in the
                         other aspects of the process, and the linking phase was also a rich yet tedious experience.`,
           buttons: ['DEMO', 'MORE'],
+          url: "https://github.com/hiabed/Pong-Game-Platform",
         },
         {
           image: 'server.webp',
@@ -17,6 +18,7 @@ const Portfolio = () => {
                         socket programming. My primary responsibility was implementing the POST method, including support for binary data, chunked
                         transfer encoding, multipart boundaries, and parsing client requests for accurate processing.`,
           buttons: ['DEMO', 'MORE'],
+          url: "https://github.com/hiabed/Webserv",
         },
         {
           image: 'inception.webp',
@@ -25,24 +27,28 @@ const Portfolio = () => {
                         from scratch, adhering to the project's restriction on using pre-built images from the Docker Hub. Configured Nginx as the web
                         server and MariaDB for database management, ensuring seamless deployment and scalability.`,
           buttons: ['DEMO', 'MORE'],
+          url: "https://github.com/hiabed/inception",
         },
         {
           image: 'iterm2.avif',
           title: 'Minishell',
           description: 'It is a small UNIX Shell that resembles Bash.',
           buttons: ['DEMO', 'MORE'],
+          url: "https://github.com/hiabed/minishell",
         },
         {
           image: 'ecommerce.png',
           title: 'E-commerce Website',
           description: `I Developed the UI of an e-commerce website using React.js for the first time.`,
           buttons: ['DEMO', 'MORE'],
+          url: "https://github.com/hiabed/E-Commerce-platform",
         },
         {
           image: 'cub3d.webp',
           title: "3D Game with C",
           description: "We implemented functional 3D game using Raycasting technic with C, from scratch using only a minimal graphic library called minilibx",
           buttons: ['DEMO', 'MORE'],
+          url: "https://github.com/hiabed/cub3d_linux",
         },
       ];
     return (
@@ -64,7 +70,7 @@ const Portfolio = () => {
                           <p>{project.description}</p>
                           <div className="buttons">
                               {project.buttons.map((buttonText, btnIndex) => (
-                              <button key={btnIndex}>{buttonText}</button>
+                              <a href={project.url} target='blank_' key={btnIndex}>{buttonText}</a>
                               ))}
                           </div>
                         </div>

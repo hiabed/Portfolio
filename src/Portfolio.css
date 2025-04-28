@@ -129,7 +129,8 @@
 
 }
 
-#Portfolio button {
+.projects a {
+    text-decoration: none;
     width: 114px;
     height: 27px;
     display: flex;
@@ -149,7 +150,7 @@
     border-right: 2px solid #FFF;
 }
 
-#Portfolio button:hover {
+.projects a:hover {
     cursor: pointer;
     opacity: 0.9;
     background-color: #161515;
@@ -166,8 +167,9 @@
 
 .project img {
     object-fit: fill;
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 98%;
+    background-color: #787878;
 }
 
 .more-to-come h3 {
