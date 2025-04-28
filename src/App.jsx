@@ -109,13 +109,13 @@ function App() {
                 },
                 resize: true,
               },
-              modes: {
-                repulse: {
-                  distance: 100,  // Reduce the distance value to make them stay tighter
-                  duration: 0.4, // Adjust the duration to make the repulse feel smoother
-                  speed: 1,      // You can change the speed of the repulse effect
-                },
-              },
+              // modes: {
+              //   repulse: {
+              //     distance: 100,  // Reduce the distance value to make them stay tighter
+              //     duration: 0.4, // Adjust the duration to make the repulse feel smoother
+              //     speed: 1,      // You can change the speed of the repulse effect
+              //   },
+              // },
             },
             particles: {
               color: {
