@@ -22,6 +22,10 @@
   background: #000; /* Black */
 }
 
+#root {
+  overflow: hidden;
+}
+
 canvas {
   position: absolute !important;
   z-index: 10 !important;
@@ -34,14 +38,15 @@ body {
 #aboutnskills {
   z-index: 2;
   display: flex;
-  width: 100vw;
+  width: 100%;
   background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
   flex-direction: column;
   align-items: center;
 }
 
 .App {
-  min-width: 1920px;
+  margin: auto;
+  max-width: 1920px;
   text-align: center;
   background-color: #D7D7D7;
 }
@@ -94,7 +99,7 @@ body {
 }
 
 .navig {
-  left: 0;
+  /* left: 0; */
   color: white;
   width: 100vw;
   height: 66px;
@@ -191,11 +196,11 @@ body {
 
 #me {
   position: absolute;
-  bottom: 40%;
+  bottom: 33%;
   left: 97px;
   transform: rotate(-9.67deg);
-  width: 500px;
-  height: 539px;
+  width: fit-content;
+  height: fit-content;
   filter: drop-shadow(0px 0px 30px rgb(34, 34, 34));
 }
 

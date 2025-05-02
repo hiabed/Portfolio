@@ -11,8 +11,8 @@ import { useScroll, useMotionValueEvent } from "framer-motion";
 import React from "react";
 
 const mainStyle = {
-  minWidth: 1920,
-  width: "100vw",
+  // minWidth: 1920,
+  width: "100%",
   height: "1022px",
   backgroundColor: "#D7D7D7",
   background: "linear-gradient(90deg,rgba(215, 215, 215, 1) 0%, rgba(215, 215, 215, 1) 57%, rgba(0, 0, 0, 1) 100%)",

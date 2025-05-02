@@ -1,7 +1,7 @@
 #Portfolio {
     z-index: 2;
-    width: 100vw;
-    min-width: 1920px;
+    width: 100%;
+    /* min-width: 1920px; */
     height: 1305px;
     display: flex;
     flex-direction: column;
@@ -177,7 +177,7 @@
     margin: auto;
     display: flex;
     width: 320px;
-    min-width: fit-content;
+    /* min-width: fit-content; */
     height: 48px;
     flex-direction: row;
     justify-content: space-evenly;
