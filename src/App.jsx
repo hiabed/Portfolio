@@ -87,9 +87,7 @@ function App() {
           <a className='nav' href="#Contact" style={contact}>CONTACT ME</a>
       </div>
       <div className='main' id="main" style={mainStyle}>
-        
-        <div className="myPicture" style={myPic}>
-        <Particles
+      <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -109,13 +107,6 @@ function App() {
                 },
                 resize: true,
               },
-              // modes: {
-              //   repulse: {
-              //     distance: 100,  // Reduce the distance value to make them stay tighter
-              //     duration: 0.4, // Adjust the duration to make the repulse feel smoother
-              //     speed: 1,      // You can change the speed of the repulse effect
-              //   },
-              // },
             },
             particles: {
               color: {
@@ -151,7 +142,8 @@ function App() {
             },
             detectRetina: true,
         }}
-        />
+      />
+        <div className="myPicture" style={myPic}>
           <div id="me">
             <img src="me-removebg-preview.png" alt="My Picture" style={{height: 706,}} />
           </div>
