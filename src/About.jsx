@@ -15,7 +15,7 @@ const About = () => {
         <p className="about-description">
             Over two years of focused learning and hands-on project-building have given me the confidence to contribute
             value in any digital-focused environment, regardless of tech stack or tools. My journey began with online
-            platforms like Codecademy and freeCodeCamp, where I explored RubyfaListCheck, JavaScript, and Responsive Web Design.
+            platforms like Codecademy and freeCodeCamp, where I explored Ruby, JavaScript, and Responsive Web Design.
             I later joined 1337, a high-quality peer-learning program, where I completed 24 challenging projects—solo and
             team-based—across various domains, including Full-Stack Web Development, OOP, Algorithms,
             Multithreading, Unix Systems, Virtualization, Gaming, and DevOps.
