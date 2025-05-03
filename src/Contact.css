@@ -69,6 +69,7 @@
 }
 
 #submit {
+    padding: 0 !important;
     display: flex;
     width: 197px !important;
     height: 45px !important;

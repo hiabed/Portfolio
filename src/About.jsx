@@ -22,7 +22,7 @@ const About = () => {
             This experience taught me how to independently learn, adapt, and deliver in real-world scenarios with people
             from diverse backgrounds. Some of my projects are listed below.
         </p>
-        <a href='./resume.pdf' target='blank_' className='read-more resume' style={{borderColor: "black", color: "black", textDecoration: "none"}}><FontAwesomeIcon style={{width: "fit-content"}} icon={faEye} />RESUME</a>
+        <a href='./My_Resume.pdf' target='blank_' className='read-more resume' style={{borderColor: "black", color: "black", textDecoration: "none"}}><FontAwesomeIcon style={{width: "fit-content"}} icon={faEye} />RESUME</a>
         <div className="separator"></div>
         <div className="knowledges">
             <div className="first-two">
