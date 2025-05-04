@@ -2,7 +2,7 @@
     z-index: 2;
     width: 100%;
     /* min-width: 1920px; */
-    height: 1305px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,10 +39,11 @@
 }
 
 .projects {
-    height: 802px;
-    width: 1920px;
+    width: 100%;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project {

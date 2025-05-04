@@ -25,28 +25,26 @@ const About = () => {
         <a href='./My_Resume.pdf' target='blank_' className='read-more resume' style={{borderColor: "black", color: "black", textDecoration: "none"}}><FontAwesomeIcon style={{width: "fit-content"}} icon={faEye} />RESUME</a>
         <div className="separator"></div>
         <div className="knowledges">
-            <div className="first-two">
-                <div className="knowledge" style={{width: 468}} data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
-                    <div className="h1">
-                        <div className="design sign"></div>
-                        <h1>Front-End Development</h1>
-                    </div>
-                    <p>
-                        I build dynamic, responsive, and user-friendly web interfaces with JavaScript, HTML5, CSS3, and Bootstrap.
-                        From hand-coded SPAs to modern React apps with hooks and React Router, I create seamless, interactive experiences.
-                        I focus on both functionality and design, delivering layouts that are visually appealing and highly usable.
-                    </p>
+            <div className="knowledge" style={{width: 468}} data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
+                <div className="h1">
+                    <div className="design sign"></div>
+                    <h1>Front-End Development</h1>
                 </div>
-                <div className="knowledge" style={{width: 483}} data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
-                    <div className="h1">
-                        <div className="development sign"></div>
-                        <h1>Object-oriented programming</h1>
-                    </div>
-                    <p>
-                        Object programming principles in C++, classes, namespaces, constructors and destructors,
-                        memory management in C++, inheritance, abstraction, overloading, templates, standard C++ library types and tools
-                    </p>
+                <p>
+                    I build dynamic, responsive, and user-friendly web interfaces with JavaScript, HTML5, CSS3, and Bootstrap.
+                    From hand-coded SPAs to modern React apps with hooks and React Router, I create seamless, interactive experiences.
+                    I focus on both functionality and design, delivering layouts that are visually appealing and highly usable.
+                </p>
+            </div>
+            <div className="knowledge" style={{width: 483}} data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
+                <div className="h1">
+                    <div className="development sign"></div>
+                    <h1>Object-oriented programming</h1>
                 </div>
+                <p>
+                    Object programming principles in C++, classes, namespaces, constructors and destructors,
+                    memory management in C++, inheritance, abstraction, overloading, templates, standard C++ library types and tools
+                </p>
             </div>
             <div className="knowledge" style={{width: 487}} data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
                 <div className="h1">
