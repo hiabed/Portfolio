@@ -79,62 +79,6 @@ function App() {
 
   return (
     <div className="App" style={app}>
-      <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 9000}}
-          options={{
-            background: {
-              color: {
-                value: "transparent",
-              },
-            },
-            fpsLimit: 120,
-            interactivity: {
-              events: {
-                onHover: {
-                  enable: true,
-                  mode: "repulse",
-                },
-                resize: true,
-              },
-            },
-            particles: {
-              color: {
-                value: "#ffffff", // <-- MAKE PARTICLES WHITE ⚡
-              },
-              links: {
-                color: "#ffffff", // <-- MAKE LINES WHITE ⚡
-                distance: 150,
-                enable: true,
-                opacity: 0.8,
-                width: 1,
-              },
-              move: {
-                enable: true,
-                speed: 2,
-              },
-              number: {
-                density: {
-                  enable: true,
-                  area: 800,
-                },
-                value: 80,
-              },
-              opacity: {
-                value: 0.8,
-              },
-              shape: {
-                type: "circle",
-              },
-              size: {
-                value: { min: 2, max: 4 }, // <-- A bit bigger so you can see
-              },
-            },
-            detectRetina: true,
-        }}
-      />
       <div className="navig" style={{backgroundColor: scrolled ? "#0B0B0B" : "transparent",top: scrolled ? 0 : 20,transition: "all 0.3s ease",}}>
           <a className='nav' href="#About">About me</a>
           <a className='nav' href="#Skills">Skills</a>
