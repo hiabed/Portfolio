@@ -186,7 +186,7 @@ body {
 }
 
 .my-name {
-  width: 700px;
+  /* width: 700px; */
   font-size: 80px;
   text-align: start;
 }
