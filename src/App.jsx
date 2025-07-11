@@ -70,7 +70,6 @@ function App() {
       <div className='main' id="main" style={mainStyle}>
         <div className="myPicture" style={myPic}>
           <div id="me">
-            <img src="me-removebg-preview.png" alt="My Picture" style={{height: 706,}} />
           </div>
         </div>
         <div className='per-infos'>
