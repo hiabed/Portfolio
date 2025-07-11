@@ -39,6 +39,9 @@ body {
   #me, .myPicture {
     display: none !important;
   }
+  .per-infos {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 778px) {
