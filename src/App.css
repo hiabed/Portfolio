@@ -218,7 +218,7 @@ body {
 }
 
 .social:visited, #linked:visited {
-  color: black;
+  color: black !important;
 }
 
 .wite-separator {
@@ -267,6 +267,7 @@ body {
   width: 38.4px;
   height: 38.4px;
   border-radius: 50%;
+  color: black;
 }
 
 #me {
