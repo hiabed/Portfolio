@@ -81,7 +81,21 @@ function App() {
             <a href='https://github.com/hiabed' target='blank_' rel="noopener noreferrer" className='social'><FontAwesomeIcon icon={faGithub} style={{fontSize: 34}}/></a>
             <div href='https://github.com/hiabed' className='social'>
               <a href='https://www.linkedin.com/in/mohammed-abed-hassani-idrissi/' id="linked" target='blank_' rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faLinkedinIn} style={{fontSize: 24}} />
+                <FontAwesomeIcon icon={faLinkedinIn} style={{fontSize: 24, color: "#c4c4c4"}} />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='per-infos-phone'>
+          <h3 className='hi' style={{fontSize: 25, fontWeight: 400}}>My name is Abed</h3>
+          <h1 className='my-name' style={{fontSize: 32, fontWeight: 600}}>I’M A DEVELOPER</h1>
+          <div className='wite-separator' style={{margin: 0}}></div>
+          <div className='socials'>
+            <a href="mailto:abed.hassani.idrissi@gmail.com?subject=Opportunity for Collaboration" target='blank_' rel="noopener noreferrer" className='social' style={{backgroundColor: "transparent", boxShadow: "none"}}><FontAwesomeIcon icon={faAt} style={{fontSize: 29, color: "white"}}/></a>
+            <a href='https://github.com/hiabed' target='blank_' rel="noopener noreferrer" className='social' style={{backgroundColor: "transparent", boxShadow: "none"}}><FontAwesomeIcon icon={faGithub} style={{fontSize: 29, color: "white"}}/></a>
+            <div href='https://github.com/hiabed' className='social' style={{backgroundColor: "transparent", boxShadow: "none"}}>
+              <a href='https://www.linkedin.com/in/mohammed-abed-hassani-idrissi/' id='linked' style={{backgroundColor: "white"}} target='blank_' rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedinIn} style={{fontSize: 18}} />
               </a>
             </div>
           </div>
