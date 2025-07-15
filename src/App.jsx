@@ -115,6 +115,11 @@ function App() {
           <p className='read-more' onClick={()=> isOpened ? setIsOpened(false) : setIsOpened(true)}>{isOpened ? "SHOW LESS": "READ MORE"}</p>
         </div>
         <div className='it-container'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="124" height="177" viewBox="0 0 124 177" fill="none">
+            <ellipse cx="61.989" cy="88.4974" rx="49.6063" ry="95.3165" transform="rotate(-26.9051 61.989 88.4974)" fill="black"/>
+            <ellipse cx="61.989" cy="88.4974" rx="49.6063" ry="95.3165" transform="rotate(-26.9051 61.989 88.4974)" fill="black"/>
+            <ellipse cx="61.989" cy="88.4974" rx="49.6063" ry="95.3165" transform="rotate(-26.9051 61.989 88.4974)" fill="black"/>
+          </svg>
           <h1 className='it'>IT</h1>
         </div>
       </div>

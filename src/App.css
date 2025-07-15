@@ -99,6 +99,11 @@ body {
   .read-more {
     display: none !important;
   }
+  .about {
+    width: 80% !important;
+    font-size: 20px !important;
+    border: 6px solid #000 !important;
+  }
   /* .bg-image {
     display: flex !important;
     background-image: url(./public/bg-home.jpg);
