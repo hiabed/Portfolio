@@ -65,7 +65,7 @@ function App() {
           <a className='nav' href="#About">About me</a>
           <a className='nav' href="#Skills">Skills</a>
           <a className='nav' href="#Portfolio" style={{marginRight: 25}}>Portfolio</a>
-          <a className='nav' href="#Contact" style={contact}>CONTACT ME</a>
+          <a className='nav' href="#Contact" style={contact}>CONTACT</a>
       </div>
       <div className='main' id="main" style={mainStyle}>
         <div className="myPicture" style={myPic}>

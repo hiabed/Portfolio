@@ -100,7 +100,7 @@ body {
 
 @media (max-width: 778px) {
   .nav {
-    width: 100px !important;
+    width: 20% !important;
     font-size: 12px !important;
   }
 }
