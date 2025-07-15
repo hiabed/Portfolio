@@ -92,6 +92,13 @@ body {
       transform: none !important;
       position: absolute;
   }
+  .description {
+    height: fit-content !important;
+    font-size: 14px !important;
+  }
+  .read-more {
+    display: none !important;
+  }
   /* .bg-image {
     display: flex !important;
     background-image: url(./public/bg-home.jpg);
