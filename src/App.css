@@ -100,7 +100,7 @@ body {
     display: none !important;
   }
   .about {
-    width: 80% !important;
+    width: 80vw !important;
     font-size: 20px !important;
     border: 6px solid #000 !important;
   }

@@ -24,6 +24,10 @@
   .maintenance {
     left: -35px !important;
   }
+  .skills {
+    width: 90% !important;
+    height: fit-content !important;
+  }
 }
 
 #About {
