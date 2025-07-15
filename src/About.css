@@ -1,5 +1,7 @@
 @media (max-width: 992px) {
   .about {
+    height: 80px !important;
+    margin-top: 60px !important;
     width: 80% !important;
     font-size: 20px !important;
     border: 6px solid #000 !important;
@@ -33,6 +35,20 @@
   .using-now {
     margin: auto !important;
     width: fit-content !important;
+  }
+  .portfolio {
+    width: 100% !important;
+    background-position-x: center !important;
+  }
+  /* .projects {
+    gap: 5px;
+  } */
+  .project {
+    border-radius: 8px !important;
+    height: 290px !important;
+  }
+  .project img {
+    object-fit: cover !important;
   }
 }
 
