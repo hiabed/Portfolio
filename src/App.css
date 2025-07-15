@@ -104,6 +104,10 @@ body {
     font-size: 20px !important;
     border: 6px solid #000 !important;
   }
+  .about-description {
+    width: 90vw !important;
+    font-size: 15px !important;
+  }
   /* .bg-image {
     display: flex !important;
     background-image: url(./public/bg-home.jpg);
