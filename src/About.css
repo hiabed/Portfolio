@@ -27,6 +27,12 @@
   .skills {
     width: 90% !important;
     height: fit-content !important;
+    margin: auto;
+    width: fit-content;
+  }
+  .using-now {
+    margin: auto !important;
+    width: fit-content !important;
   }
 }
 
