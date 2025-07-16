@@ -86,6 +86,7 @@ function App() {
             </div>
           </div>
         </div>
+        <div className='home-bg'></div>
         <div className='per-infos-phone'>
           <h3 className='hi' style={{fontSize: 25, fontWeight: 400}}>My name is Abed</h3>
           <h1 className='my-name' style={{fontSize: 32, fontWeight: 600}}>I’M A DEVELOPER</h1>
