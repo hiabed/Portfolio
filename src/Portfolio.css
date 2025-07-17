@@ -1,3 +1,10 @@
+@media (max-width: 992px) {
+    .portfolio {
+        height: 194px !important;
+        background-position: -129px -199px !important;
+    }
+}
+
 #Portfolio {
     z-index: 2;
     width: 100%;
@@ -11,9 +18,16 @@
 }
 
 .portfolio {
-    width: 1920px;
+    display: flex;
+    width: 100vw;
     height: 321px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url(/Portfolio.svg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url(/Portfolio/bg-home.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio h1 {
+    margin: 0 !important;
 }
 
 .tabs {

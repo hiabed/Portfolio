@@ -54,6 +54,9 @@ const Portfolio = () => {
     return (
         <div id="Portfolio">
             <div className="portfolio">
+              <h1 className="about">
+                Portfolio
+              </h1>
             </div>
             <div className="tabs">
                 <a className='tab' style={{cursor: "pointer",color: "#FFFBFB"}}>Projects</a>
