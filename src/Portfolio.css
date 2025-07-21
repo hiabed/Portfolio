@@ -21,7 +21,7 @@
     display: flex;
     width: 100vw;
     height: 321px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url(/Portfolio/bg-home.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url(/Portfolio-img.png) lightgray 0px -109px / 100% 377.608% no-repeat;
     justify-content: center;
     align-items: center;
 }

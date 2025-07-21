@@ -44,6 +44,9 @@ body {
 } */
 
 @media (max-width: 992px) {
+  body {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF !important;
+  }
   #me, .myPicture {
     display: none !important;
   }
