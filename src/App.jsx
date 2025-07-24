@@ -27,6 +27,9 @@ const myPic = {
   transform: "rotate(9.67deg)",
   top: -90,
   zIndex: 0,
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center"
 }
 
 const app = {
