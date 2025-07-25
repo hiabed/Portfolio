@@ -44,6 +44,9 @@ body {
 } */
 
 @media (max-width: 1330px) {
+  .sign {
+    left: -20px !important;
+  }
   body {
     background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF !important;
   }
@@ -76,6 +79,9 @@ body {
 }
 
 @media (max-width: 992px) {
+  .sign {
+    left: -35px !important;
+  }
   .navig {
     justify-content: center !important;
     gap: 0 !important;
