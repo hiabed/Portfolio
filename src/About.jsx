@@ -13,7 +13,7 @@ const About = () => {
     <div id="About" data-aos="fade-up" data-aos-once="false" data-aos-duration="600">
         <h1 className='about'>ABOUT ME</h1>
         <p className="about-description">
-            Over two years of focused learning and hands-on project-building have given me the confidence to contribute
+            Over three years of focused learning and hands-on project-building have given me the confidence to contribute
             value in any digital-focused environment, regardless of tech stack or tools. My journey began with online
             platforms like Codecademy and freeCodeCamp, where I explored Ruby, JavaScript, and Responsive Web Design.
             I later joined 1337, a high-quality peer-learning program, where I completed 24 challenging projects—solo and
