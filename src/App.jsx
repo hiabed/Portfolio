@@ -78,7 +78,7 @@ function App() {
         <div className='per-infos'>
           <h3 className='hi'>Hi, I am</h3>
           <h1 className='my-name'>Mohammed-Abed Hassani-Idrissi</h1>
-          <p className='title'>Software Developer / Front-end Enthusiast</p>
+          <p className='title'>Fullstack Developer & Front-end Enthusiast</p>
           <div className='socials'>
             <a href="mailto:abed.hassani.idrissi@gmail.com?subject=Opportunity for Collaboration" target='blank_' rel="noopener noreferrer" className='social'><FontAwesomeIcon icon={faAt} style={{fontSize: 34}}/></a>
             <a href='https://github.com/hiabed' target='blank_' rel="noopener noreferrer" className='social'><FontAwesomeIcon icon={faGithub} style={{fontSize: 34}}/></a>
