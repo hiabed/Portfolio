@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* ===== DESIGN SYSTEM ===== */
 :root, [data-theme="dark"] {
   --bg-primary: #07070b;
