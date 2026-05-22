@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const projectsData = [
   {
     image: './heymizan.png', // Fallback graphic; add actual image in public folder if possible
-    title: 'HeyMizan (Platform MVP)',
+    title: 'Mizan AI Platform',
     description: `Developed an MVP restaurant management platform from scratch to streamline
       operations for managers, owners, and staff, featuring process tracking, task
       management, and staff scheduling, click on live website to read more about the project!`,
