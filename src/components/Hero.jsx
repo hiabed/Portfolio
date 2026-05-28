@@ -21,7 +21,7 @@ const Hero = () => {
             Mohammed-Abed<br />
             <span className="accent-text">Hassani-Idrissi</span>
           </h1>
-          <p className="hero-title">Fullstack Developer &middot; Front-end Enthusiast</p>
+          <p className="hero-title">Fullstack Developer</p>
           <p className="hero-description">
             I design and build clean, responsive, and performant web experiences —
             from hand-crafted SPAs to containerized full-stack systems.

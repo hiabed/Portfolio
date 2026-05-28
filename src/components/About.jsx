@@ -72,6 +72,34 @@ const About = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
+            <div className="knowledge-card-icon">🗄️</div>
+            <h3>Back-End Development</h3>
+            <p>
+              I design and implement server-side architectures and APIs using Node.js, Express, Nest.js, and Django. Experienced in working with PostgreSQL databases and managing data using ORMs like TypeORM and Prisma.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="knowledge-card"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
+            <div className="knowledge-card-icon">🐳</div>
+            <h3>DevOps & Infrastructure</h3>
+            <p>
+              Practical experience in infrastructure and containerization using Docker & Docker Compose. Skilled in provisioning VMs with Vagrant and configuring local Kubernetes (K3s) clusters with custom deployment, service, and ingress manifests.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="knowledge-card"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+          >
             <div className="knowledge-card-icon">🧱</div>
             <h3>Object-Oriented Programming</h3>
             <p>
@@ -84,12 +112,26 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.5, delay: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.7 }}
           >
             <div className="knowledge-card-icon">⚙️</div>
             <h3>Systems & Imperative</h3>
             <p>
               Deep understanding of system-level behavior with C. Experience with memory allocation, pointers, complex data structures (trees, linked lists), and Unix system programming.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="knowledge-card"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5, delay: 0.8 }}
+          >
+            <div className="knowledge-card-icon">🔐</div>
+            <h3>Reverse Engineering & Security</h3>
+            <p>
+              Explored binary exploitation and reverse engineering through the "Rainfall" project. Gained practical experience analyzing executables, understanding assembly code, and identifying security vulnerabilities.
             </p>
           </motion.div>
         </div>
